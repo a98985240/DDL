@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/cn/VBox_GAs_6.1.46" added="2024-10-19T13:11:00.077834Z" modified="2024-10-19T13:11:34.531553Z" visited="2024-10-19T13:11:00.077835Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus-autorun-software %u&apos;" modified="2024-10-19T13:11:34.531549Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cn/VBox_GAs_6.1.46/VBoxSolarisAdditions.pkg" added="2024-10-19T13:13:41.981902Z" modified="2024-10-19T13:13:41.981904Z" visited="2024-10-19T13:13:41.981902Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-10-19T13:13:41.981903Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cn/VBox_GAs_6.1.46/VBoxLinuxAdditions.run" added="2024-10-19T13:13:46.491817Z" modified="2024-10-19T13:13:52.488422Z" visited="2024-10-19T13:13:46.491817Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gedit %U&apos;" modified="2024-10-19T13:13:52.488421Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

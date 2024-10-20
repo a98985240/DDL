@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  client:
+    image: ubuntu:latest
+    container_name: client_container
+    command: bash -c "apt-get -y update && apt-get install -y iputils-ping iperf tcpdump net-tools iproute2 && tail -f /dev/null"
+    networks:
+      - ubuntu_network
+
+  server:
+    image: ubuntu:latest
+    container_name: server_container
+    command: bash -c "apt-get -y update && apt-get install -y iputils-ping iperf tcpdump net-tools && tail -f /dev/null"
+    volumes:
+      - .:/home/ubuntu/data
+    networks:
+      - ubuntu_network
+
+networks:
+  ubuntu_network:
+    driver: bridge
